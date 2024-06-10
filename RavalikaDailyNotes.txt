@@ -1,0 +1,289 @@
+
+ON-1 ,OFF-0 	Ascii,Unicode(18)---a-98-100010101	
+
+s.l:-desinging websites
+
+p.l:-devloping softwares
+
+		windows,driver ,
+		
+
+							computer languages
+							
+				scripting languages			programming languages
+				
+
+							(procedure oriented p.l)pop				oop(object oriented p.l)
+								basic,cobalt,....						java,c++,lisp,.net....
+	oop features:-
+	
+	SECURITY :- Encapsulation,Abstraction
+	
+	PERFROMANCE :-Ploymorphism,Inheritance
+		
+		
+	java:-  oops 	 oopl
+	
+	(1)platform independency :-
+	
+	(2)Garbage collector :-
+		
+		
+		sun microsystems:-
+		=================
+		
+		greentalk(.gt)----------->oak -------------->java(.java)
+		
+		jdk 1.0-------------------------------------->jdk 22 [8,11,17,21]
+		
+		to check :-
+		
+		cmd>java --version
+		
+		
+		java in 3 editions :-
+		
+		jse/j2se :-core java [no client - sever] ex :-calculator---->standalone app's
+		
+		jee/j2ee :-Adv java [client -server] ex:-zomato---->	distributed web app's
+		
+		jme/j2me :-micro core java ----->mobile app's
+		
+		
+		
+		Variables:-
+		
+		syntax:-
+		
+		datatype varname = 34;
+		
+		
+		(1)local Variables	:-within the method body	(2)Global variables:-outside the meth
+								
+														static g.v 					instance g.v
+		
+	
+syntax:-
+=======
+
+(1)static :- static datatype varname = 34;
+(2)instance :- datatype varname = 34;
+
+
+memory space:-
+=============
+static :- static prop's(var,methods,constr) will gets the memory space only once when the 
+				class loading into the jvm
+
+
+instance :- instance prop's will gets the memory space for every object creation
+
+
+access:-
+=======
+
+static :- these can be accessed by class reference
+
+instance :- these prop's can be accessed by object reference
+
+memory area:-
+============
+
+static :- method area
+
+instance:- heap area
+
+usage:-
+=====
+
+static :- to store the common data
+
+instance :- to store the unique data
+		
+	Operators:-
+==============	
+		
+		ULTRA AB
+		
+		
+		a  +  b
+		
+		
+		ecllipse ide shortcut's:-
+		
+		ctrl+/ ------------>comments
+		
+		ctrl+ space ------->suggestion
+		
+		ctrl+shift+o ------>default imports
+		
+		ctrl+shift+/  ------>mutli line comments
+		
+
+		control statements:-
+		
+		(1)conditional statements
+		
+		(2) Iterative statements
+		
+		(3)Break statements
+		
+		
+		method:- set of statements where altogether perform a task
+		
+		
+		syntax/signature :- 
+		
+			accessmodifier returntype methodname(params...){
+				//method body
+			
+			}
+			
+			bases on the syntax :- 2 types
+			
+	static :-
+	
+	accessmodifier static returntype methodname(params...){
+				//method body
+			
+			}
+	
+	
+	
+	Dynamic:-
+	accessmodifier returntype methodname(params...){
+				//method body
+			
+			}
+			
+			
+	class = variables + methods 
+	
+	class = class member's + member functions
+	
+	
+	classname obj  = new classname();
+	
+	
+	Inheritance:-Accquiring parents class features to the child class
+	===========
+						*	Code Reusability
+	
+						extends 				implements
+					class ---->class			interface ---->class
+	
+					
+	class A{       //parent /super
+	100 methods
+	}
+	
+	class B extends A {   //child/sub
+	//20 methods  + 100 method  ==120 methodds
+	}
+	
+	
+	* MI is not supported in java @class level
+	
+	* MI is supported in java @interface level
+	
+	
+	
+	class A{			class B	{				
+	add(a,b)			add(a,b)
+	(a+b);				(a*b);
+	}					}
+	
+	class C extends A,B{
+	
+	obj.add(4,7)
+	
+	}
+	
+	methods :- based on method body/implementation  ---->2 types
+	
+	
+	(1)concrete method :-method with method body/implementation
+	
+	syntax:- 
+	
+	accessmodifier returntype methodname(params....){
+	
+	//body
+	}
+	
+
+	(2)abstract method :-method without method body/implementation
+	
+	syntax:-
+	
+	accessmodifier returntype methodname(params...);
+	
+	
+	class :- it's the collection of only concrete methods
+	
+	abstract :- it's the combination of both concrete + abstract methods
+	
+	interface :- it's the collection of only abstract methods
+	
+	
+	Abstraction :- to hide data	
+	
+					*security
+					
+	interface 				abstract class 			class
+	
+	polymorphism :-			* code reuseability
+	
+	(1)methodoverloading:-the method name  is same but difference is in it's parameters
+							
+							(a)type:-of parmas..
+							(b)order of params..
+							(c)no:of params..
+	
+	(2)methodoverriding:-method  with same method signature but with diff met body.
+	
+	class A{
+	1000 Cr()
+	
+	marriage(){
+	kajol;
+	}
+	
+	100 met()
+	
+	}
+	
+	class Child extends A{
+	
+	
+	@Override
+	marriage(){
+	deepika;
+	}
+	
+	
+	
+	}
+	
+	Encapsulation:-wraps up the data in to a single entity/class.
+	
+	
+	constructor :- To initialize the objects
+	
+	classname objname = new classname();
+	
+	syntax :-
+	
+		accessmodifier classname(){				-->default constructor
+		/body
+		}
+		
+	syntax :- 
+	
+		accessmodifier classname(parms..){		------>parametrized constructor
+		//body
+		}
+		
+		
+		
+		Exceptions:-
