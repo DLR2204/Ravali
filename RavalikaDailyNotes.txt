@@ -287,3 +287,86 @@ instance :- to store the unique data
 		
 		
 		Exceptions:-
+		
+		InsufficeintFundsException
+		
+		withdraw;
+		
+		
+		
+		balance = 45000;
+		
+		if(500<withdraw<Balance)
+		
+		Array :- it's the collection of similar datatype elements.
+		
+		(1)int arr[] = {1,1,1,1,1,1,1,1,2};
+		
+		(2)int arr[] = new int[10];
+		
+		arr[1] = 45;
+		
+		(3)int arr[] = new int[]{1,1,2,34,5,6,67,67,5};
+		
+		
+		
+	limitations:-
+	
+	(1)array size fixed while creating an array and can't be altered
+	
+	(2)accepts only homogeneous data
+	
+	(3)no utility methods
+	
+	
+	
+	collections:-(framework)
+	===========
+	
+	(1)it's growable in nature
+	
+	(2)accepts both heterogenous/homogeneous data
+	
+	(3)lots of utility methods
+	
+	
+	
+	
+	lang----->Comparable ----->CompareTo()====cso
+	
+	util ----->Comparator---->Compare(01,02)===nso
+	
+	
+	Strings:-
+	========
+	
+	
+	String varname = "value"; ----->	String literal
+	
+	
+	String 					StringBuffer				StringBulider
+	
+	immutable				mutable							mutable
+						Sync(timetaking,no loss in data)	Non-Sync(no timetaking,data loss)
+						
+						
+	File Handling:- java.io.*
+	=============
+	
+	
+	To create a file :- File
+	
+	To write into a file :-(1)FileWriter
+							(2)BufferedWriter
+							(3)PrintWriter
+							
+	To read from a file :-(1)FileReader
+						  (2)BufferedReader
+						  
+						  
+		
+		Serialization :-The process of converting an object data in byte data is called serialization
+		
+		Deserialization :- The process of converting the byte data in to object data is called deserialization
+		
+		
