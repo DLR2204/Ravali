@@ -370,3 +370,13 @@ instance :- to store the unique data
 		Deserialization :- The process of converting the byte data in to object data is called deserialization
 		
 		
+		
+		java 8 :-
+		========
+		
+		interface :- It's the collection of only abstract methods
+		
+		Marker interface :- 0 methods
+		
+		Functional Interface :-(sam)Single Abstract Method 
+		
