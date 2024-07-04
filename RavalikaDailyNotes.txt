@@ -380,3 +380,191 @@ instance :- to store the unique data
 		
 		Functional Interface :-(sam)Single Abstract Method 
 		
+											
+										
+										
+										Database:-
+										========
+										
+										
+			apples		324							
+			oranges		234
+			roses		123	
+			tulips		454	
+			
+		oracle db ----->RDBMS :-tables(rows[records]+columns[fields]) 
+		
+		
+		SQL
+		
+		Queires:-To do any operation in the db we need to write queires.
+		
+		5 types :-
+		
+		DDL(Data Definition language):-create,rename,alter,drop,truncate (auto -committed)
+		
+		DML(Data Manipulation language):-insert ,update,delete (non auto-committed)
+		
+		DRL(Data Retrival Language):-select
+		
+		DCL(Data Control Language) :- grant
+		
+		TCL(Transaction Control Language):-commit,rollback
+		
+		
+		drop :- deletes entire table along with record(rows)
+		
+		truncate :-delete all the records(rows)
+		
+		delete :-custom deletions
+		
+		
+									JDBC:-
+									=====
+									
+				java(Object)	----(Translator)Drivers-----   database(query)
+				
+				
+	5 steps:-
+	
+	(1)Loading driver class
+	
+	(2)creating the connection
+	
+	(3)create statement
+	
+	(4)execute the statement
+	
+	(5)closing the connections.
+	
+		
+	Limitations:-
+	===========
+	
+	(1)Exception Handling
+	
+	(2)Table creation
+	
+	(3)Queires
+	
+	(4)same file for db prop's,business logic
+	
+	(5)Boiler Plate code(repeated code)
+	
+	
+	
+	jpa(java persistence API) -----------specification
+	=========================
+	
+	(1)No Exception Handling
+	
+	(2)No table creation
+	
+	(3)No Queires(equivalient java methods)
+	
+	(4)diff files for db prop's ,business logic
+	
+	(5)No boiler Plate code
+	
+	
+	ORM(Object Relational Mapping ) Tools :-
+	
+	hibernate , ecllipselink , ibatis, toplink.......
+	---------
+	
+	class ---------->table
+	
+	variables------->columns
+	
+	object---------->row
+	
+	
+	EntityManagerFactory ---------->db prop's
+	
+	EntityManager :-
+	
+	insert ---persist()
+	
+	update ---merge()
+	
+	select --find()
+	
+	delete --remove()
+	
+		<predefinedwords>
+		  
+		  
+		  
+		  build tool - maven
+		  
+		  pom- project object model
+		  
+		  
+		  
+									spring:-
+									======
+									
+	spring:- It is a non-invasive framework which is used to create light-weighted and loosley
+					coupled web applications.
+					
+					
+			invasive :-It will forces the programmer to implement the predefined API
+			non-invasive :-It will NOT forces the programmer to implement the predefined API
+			
+			
+			
+			heavy-weighted:-
+			
+	class A{
+	
+	10,000 methods
+	}
+	
+	class B extends A{
+	500 methods
+	}
+	
+	class C extends B{
+	
+	1 + 500 +10,000 = 10501 methods
+	
+	}
+	
+	
+	
+			tightly coupled :- If dependencies between the classes are very high 
+			
+			loosely coupled :-If dependencies between the classes are very low
+			
+			
+			EJB ----------->Interface 21(Rod johnson)
+			
+			
+			spring -------------->2003 1.x
+			
+			--------------------->2024 6.x
+			
+			
+	spring core,spring boot,spring security,spring cloud,spring rest.................20+	
+
+
+	spring core :- To avoid the dependencies between the classes(no object creation).
+	===========
+	
+	Containers :- These are to create the objects.
+	---------
+				(1)Bean Factory
+				(2)Application Context 
+				
+				
+	Dependency Injection:- To inject the data inside the object			
+	---------------------
+				(1)Setter Injection		<property></property>
+				(2)Constructor Injection <constructor-arg></constructor-arg>
+				(3)Autowire   autowire
+				
+				
+	Configurations:-
+	--------------
+				(1)Xml Configuration
+				(2)Annotation Configuration
