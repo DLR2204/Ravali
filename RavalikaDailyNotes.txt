@@ -568,3 +568,18 @@ instance :- to store the unique data
 	--------------
 				(1)Xml Configuration
 				(2)Annotation Configuration
+				
+				
+				
+	Spring Boot :-
+	===========
+	
+	Advantages:-
+	
+	(1)Auto Configuration
+	
+	(2)Embedded Server(Tomcat server)
+	
+	(3)Starters(set of jar files)
+	
+	(4)Actuators(provides the health of our application through url's)
