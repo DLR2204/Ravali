@@ -578,8 +578,66 @@ instance :- to store the unique data
 	
 	(1)Auto Configuration
 	
-	(2)Embedded Server(Tomcat server)
+	(2)Embedded Server(Tomcat server : 8080)
 	
 	(3)Starters(set of jar files)
 	
 	(4)Actuators(provides the health of our application through url's)
+	
+	
+	spring mvc :- 
+	
+	
+			controller :- which interacts with the client through http url's
+			
+			dao/repository :-it contains the jpa logic which interacts with the db(data access obj)
+			
+			service :-it is the mediator b/n controller and dao 
+			
+			
+			
+		Spring Rest :-
+		
+		webservices :- It is used to make interaction possible b/n two interoperable app's.
+		
+					(1)Soap:-It uses only xml format as it's common lang[simple object access program]
+					
+					(2)Rest:- It uses xml,json,js,html,......... as it's common lang[Representation state transfer]
+					
+					
+					
+								Frontend
+								=========
+								
+	website :- collection of webpages.3 types:-
+
+		(1)static webpages :- changes and updates are stagnant ex:- registration pages
+		(2)Dynamic webpages :- changes and updates will happens regularly ex:- social media webpage
+		(3)Server webpages :- Data from static and dynamic webpages will get stored here.
+								
+		
+HTML :-Hyper Text Markup Language
+		
+	hyper text :- The text is linking with seperate webpage/website.
+	
+	Tim berner's lee
+	
+	
+	<predefined word>
+	Tag :- 2 types :-  (1)container/ pair :- <tag></tag>
+					   (2)single/empty    :-<> or </tag> or <tag/>
+	
+	<body attribute =  "value"> statements </body> ===========> element
+	
+	
+	Lists(Numbering & bullets):-<li></li>
+	
+				(1)ordered list :- <ol></ol>   ------->Numberings
+				(2)Unordered list :- <ul></ul> -------->Bullets
+				
+				
+	Linking :- Anchor Tag ---->   <a></a>
+	
+	(1)Text linking
+	
+	(2)Image Linkging
