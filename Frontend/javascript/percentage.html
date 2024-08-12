@@ -1,0 +1,66 @@
+<html>
+<head><title>Calculator</title>
+<script>
+function percentage(){
+
+document.getElementById("perc").value = (document.getElementById("om").value/document.getElementById("mm").value)*100;
+
+var percentage = document.getElementById("perc").value;
+
+var gpa = Math.floor(percentage/10);
+
+var grade;
+
+switch(gpa){
+
+	case 9:grade="excellent";
+		break;
+
+	case 8:grade="very good";
+		break;
+
+	case 7:grade="good";
+		break;
+
+	case 6:grade="average";
+		break;
+
+	case 5:grade="improve well";
+		break;
+
+	case 4:grade="poor";
+		break;
+
+	case 3:grade="very poor";
+		break;
+
+	default:grade="fail";
+		break;
+}
+
+document.getElementById("grade").value=grade;
+
+
+}
+
+
+
+
+</script>
+</head>
+<body align="center">
+
+<h1>Percentage and grade Calculator</h1>
+<font size="5" face="Calibri">
+
+Max Marks :- <input type="text" id="mm"><br><br>
+
+Obtained Marks :- <input type="text" id="om"><br><br>
+
+<button type="button" onclick="percentage()" >calculate</button><br><br>
+
+<b style="color:green">PERCENTAGE :- <input type="text" id="perc">
+<b style="color:green">GRADE :- <input type="text" id="grade">
+</font>
+</body>
+</html>
