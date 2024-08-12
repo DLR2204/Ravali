@@ -641,3 +641,92 @@ HTML :-Hyper Text Markup Language
 	(1)Text linking
 	
 	(2)Image Linkging
+	
+	
+							css(cascading style sheet)
+							=========================
+							
+		(1)External Styling :- attaching external style sheet to the html doc
+		
+		(2)Internal Styling :-droping <style> tag inside <head> tag
+		
+		(3)Inline Styling  :- using style att inside the tag
+		 
+								javascript:-
+								===========
+		(1)To create dynamic webpages
+		
+		(2)To change html content
+		
+		(3)To change html attribute
+		
+		(4)To change css styling
+		
+		(5)To hide the data
+		 
+		----->inside the <head> /<body> tag we can inject <script>
+		
+		----->by attaching an external js file to the html file
+		
+	
+	*functions to check the ouput in js :-
+	
+		innerHTML :- display's the data in the webpage by accepting element id(document.getElementById )
+		
+		document.write("text")  :-  given text will be printed
+		
+		window.alert("text") :- given text will be printed in the dialog box
+		
+		console.log("text") :- given text will be printed in the console window
+		
+		
+		
+		
+		var varname = 45;
+		
+		datatypes :-
+		
+		number,string,boolean,object,undefined
+		
+		
+		function funname(params...){
+
+		//body  }
+		
+		
+		bootstrap :-
+		==========
+		
+		(1)Througn cdn(content delivery network).
+		
+		(2)By downloading bootstrap files.
+		
+
+ 		
+								react:-
+								=====
+		React is an open source js libraty to build ui's.
+		
+		(1)npx create-react-app appname
+		
+		(2)npm install create-react-app g
+			create-react-app appname
+			
+			
+			
+		
+		It will break total website into blocks which are called as components.
+		
+		It has cba(component based archi)
+		
+		
+		(1)Stateless Functional Component (js function)
+		
+		(2)Statefull class Component (js class)
+		
+		
+		
+		state :- local variable for the component.
+		
+		
+		onClick ,onChange
